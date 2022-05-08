@@ -7,7 +7,7 @@ public class Movement {
     private LocalDateTime dateTime;
     private String description;
     private Double value;
-    private MovimentType type;
+    private MovementType type;
 
     public Integer getId() {
         return id;
@@ -41,11 +41,11 @@ public class Movement {
         this.value = value;
     }
 
-    public MovimentType getType() {
+    public MovementType getType() {
         return type;
     }
 
-    public void setType(MovimentType type) {
+    public void setType(MovementType type) {
         this.type = type;
     }
 }
